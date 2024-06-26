@@ -4,8 +4,30 @@ This Java program demonstrates how to handle an ArrayIndexOutOfBoundsException w
 https://youtu.be/8e4cJ1Qjc3M
 # Array Index Example
 
-[![Java][]](https://www.java.com/)[![License][]](LICENSE)
-
+![image](https://github.com/ARIBFIB/arrayoutofboundexception-try-catch-block-in-Java/assets/125716994/389def79-9852-4563-8aed-f8302d45e6a1)
+# Source Code
+```
+public class ArrayIndexExample{
+    public static void main(String[] args) {
+//        first create an int array of numbers
+        int[] numbers = new int[10];
+        Random random = new Random();
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = random.nextInt(100);
+        }
+        int index;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the index of array: ");
+        index = scanner.nextInt();
+        
+        try {
+            System.out.println("The numebr of array " +index + " is : " + numbers[index]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Out of Bound");
+        }
+    }
+}
+```
 This Java program demonstrates how to handle an `ArrayIndexOutOfBoundsException` when accessing an array element at an invalid index.
 
 ## Table of Contents
