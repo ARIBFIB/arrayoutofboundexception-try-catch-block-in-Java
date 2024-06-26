@@ -5,6 +5,12 @@ https://youtu.be/8e4cJ1Qjc3M
 # Array Index Example
 
 ![image](https://github.com/ARIBFIB/arrayoutofboundexception-try-catch-block-in-Java/assets/125716994/389def79-9852-4563-8aed-f8302d45e6a1)
+
+# java import
+```
+import java.util.Random;
+import java.util.Scanner;
+```
 # Source Code
 ```
 public class ArrayIndexExample{
@@ -28,6 +34,10 @@ public class ArrayIndexExample{
     }
 }
 ```
+# Output
+![image](https://github.com/ARIBFIB/arrayoutofboundexception-try-catch-block-in-Java/assets/125716994/d0e1e27e-4607-49e5-8cb2-6a25fe0e3b51)
+
+
 This Java program demonstrates how to handle an `ArrayIndexOutOfBoundsException` when accessing an array element at an invalid index.
 
 ## Table of Contents
